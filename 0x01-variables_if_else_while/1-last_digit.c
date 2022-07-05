@@ -7,18 +7,17 @@
  * Description: 'program will assign a random number to the variable n'
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
 int n;
-int last n;
+int lastn;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastn = n % 10;
 if (lastn > 5)
 {
-printf("last digit of %d is %d and is greater than 5\n" n, lastn);
+printf("last digit of %d is %d and is greater than 5\n", n, lastn);
 }
 else if (lastn == 0)
 {
