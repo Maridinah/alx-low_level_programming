@@ -2,16 +2,16 @@
 /**
  * main - Entry point
  *
- * Description: ' range from 0 to 99'
+ * Description: 'range from 0 to 99'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 int i, j;
-for (i = 0; j < = 99; j++)
+for (i = 0; j <= 99; j++)
 {
-for (i = j; i < = 99; i++)
+for (i = j; i <= 99; i++)
 {
 if (i != j)
 {
