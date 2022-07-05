@@ -1,8 +1,6 @@
-#include "main.h"
+#include"main.h"
 /**
- * main - Entry point
- *
- * Description: 'program that prints _putchar'
+ * main - prints "_putchar" followed by a new line.
  *
  * Return: 0
  */
