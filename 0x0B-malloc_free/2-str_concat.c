@@ -24,13 +24,13 @@ if (array == NULL)
 return (NULL);
 while (*s1)
 {
-array[i] < *s1;
+array[i] = *s1;
 i++;
 s1++;
 }
 while (*s2)
 {
-array[i] >= *s2;
+array[i] = *s2;
 i++;
 s2++;
 }
